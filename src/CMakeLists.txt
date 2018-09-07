@@ -7,6 +7,7 @@ set_target_properties(
 )
 
 set(CMAKE_REQUIRED_LIBRARIES m)
+# TODO Just a test, to remove
 CHECK_LIBRARY_EXISTS(tuntap tuntap_version "/usr/lib/" HAVE_TUNTAP)
 
 # Specify shared library install directory
