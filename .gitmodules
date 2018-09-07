@@ -1,0 +1,9 @@
+[submodule "src/openvpn3"]
+	path = src/openvpn3
+	url = https://github.com/OpenVPN/openvpn3.git
+[submodule "lib/openvpn3"]
+	path = lib/openvpn3
+	url = https://github.com/OpenVPN/openvpn3.git
+[submodule "lib/asio"]
+	path = lib/asio
+	url = git://github.com/chriskohlhoff/asio
