@@ -1,5 +1,6 @@
 # Add libviface library to build
-add_executable(${PROJECT_NAME} "main.cpp")
+add_executable(${PROJECT_NAME} "main.cpp"
+    "connectionmanager.cpp")
 
 # Set library version
 set_target_properties(
